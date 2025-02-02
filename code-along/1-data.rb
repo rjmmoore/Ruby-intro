@@ -4,16 +4,61 @@
 
 # In Ruby, there are different *types* of data:
 
-# Numbers
+# # Numbers
+# puts 2
+# puts 4
+# 6
 
-# Non-numbers
 
-# True, False
+# # Non-numbers
 
-# Nothing
+# puts "hello, world"
+# puts "tacos are" + " delish"
+# puts "tacos" *3
+# puts "tacos" + 3.to_s
 
-# Variables
+# # True, False
 
-# Combine strings and variables
+# puts true
+# puts false
 
-# String manipulation
+
+# # Nothing
+
+# puts nil
+
+# x = 10
+# y = 3
+
+# puts x*y
+
+# food = "tacos"
+# quantity = 3
+
+# puts food * quantity
+
+# first_name = "boba"
+# greeting = "hello, #{first_name}"
+
+# puts greeting
+
+
+
+# # Variables
+
+
+
+
+# # Combine strings and variables
+
+# # String manipulation
+
+puts "Hello".length
+puts "how are you today?".capitalize
+puts "computer".reverse
+
+creed = "this is the way"
+puts creed.upcase
+puts creed.downcase
+puts creed.swapcase
+

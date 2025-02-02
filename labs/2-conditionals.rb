@@ -4,6 +4,8 @@
 
 # EXERCISE
 # Continue your craps program (starting code below).
+
+
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two
 # dice.
@@ -28,5 +30,14 @@ die2 = rand(1..6)
 puts die2
 
 # 3. create a variable for the total and write it to the screen
+
 total = die1 + die2
-puts "The total is: #{total}"
+puts total
+
+if total == 7 || total == 11
+  puts "you win!"
+elsif total == 2 || total == 3 || total == 12
+  puts "LOSER"
+else 
+  puts "the point is #{total}"
+end
